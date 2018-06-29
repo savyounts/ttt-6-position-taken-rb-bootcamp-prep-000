@@ -4,7 +4,5 @@
 #end
 
 def position_taken? (board, index)
- if board[index] == !( " "||""||nil)
- elsif board[index] == "X" ||"O" 
- end
+ board[index] != " "||""||nil
 end
